@@ -1,4 +1,4 @@
-accelerate launch --config_file "configs/fsdp_config_qlora.yaml"  train.py \
+accelerate launch --config_file "configs/fsdp_config_graham.yaml"  train.py \
 --seed 100 \
 --model_name_or_path "/home/lancelot/scratch/Meta-Llama-3-8B-Instruct" \
 --dataset_name "smangrul/ultrachat-10k-chatml" \
